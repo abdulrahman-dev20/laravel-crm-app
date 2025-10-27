@@ -1,6 +1,6 @@
 💼 Laravel CRM Project: Sistem Manajemen Perusahaan & Kontak
 
-Aplikasi Web sederhana berbasis CRM (Customer Relationship Management) yang dibangun menggunakan Laravel 11. Proyek ini berfungsi untuk mengelola data Perusahaan dan Kontak secara terpusat. Dirancang dengan arsitektur bersih untuk memisahkan kebutuhan Web (Blade) dan fondasi API (Sanctum).
+Aplikasi Web sederhana berbasis CRM (Customer Relationship Management) yang dibangun menggunakan Laravel 12. Proyek ini berfungsi untuk mengelola data Perusahaan dan Kontak secara terpusat. Dirancang dengan arsitektur bersih untuk memisahkan kebutuhan Web (Blade) dan fondasi API (Sanctum).
 
 ✨ Fitur Utama (Core Features)
 
@@ -18,9 +18,9 @@ Arsitektur Modular: Penggunaan Blade Components untuk tombol aksi dan tabel data
 
 Proyek ini menggunakan stack teknologi modern (TALL stack - variasi):
 
-Backend Framework: Laravel 11
+Backend Framework: Laravel 12
 
-Database: MySQL (atau SQLite/PostgreSQL, dikelola via Eloquent ORM)
+Database: PostgreSQL
 
 Frontend Styling: Tailwind CSS
 
@@ -34,7 +34,7 @@ Pastikan Anda telah menginstal Docker dan WSL (jika di Windows) sebelum memulai.
 
 Clone Repository:
 
-git clone [Ganti dengan URL Repo Anda]
+git clone https://github.com/abdulrahman-dev20/laravel-crm-app.git
 cd laravel-crm-app
 
 
@@ -71,6 +71,6 @@ Akses aplikasi di browser: http://localhost
 
 👤 Kontributor
 
-[Nama Anda] - Initial Project Development
+Abdul Rahman - Initial Project Development
 
 Proyek ini merupakan hasil pembelajaran pola arsitektur Laravel yang bersih dan efisien.
